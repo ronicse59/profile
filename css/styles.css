@@ -11438,3 +11438,19 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.flag {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;     /* makes it circular */
+  object-fit: cover;      /* crops image to fit the circle */
+  border: 1px solid #ccc; /* optional border for better visibility */
+  margin: 3px;            /* spacing between flags */
+}
+@keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+.blinking-image {
+      animation: blink 1s infinite; /* 1 second per cycle, repeats forever */
+    }

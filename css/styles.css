@@ -158,8 +158,8 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; margin: 0; 
 
 .profile { text-align: center; }
 .profile__photo {
-  width: 220px;
-  height: 270px;
+  width: 90%;
+  height: 60%;
   border-radius: 10%;
   object-fit: cover;
   margin: 0 auto 1rem;
